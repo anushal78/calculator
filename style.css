@@ -1,0 +1,54 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: rgb(155, 234, 234);
+    color: white;
+}
+
+.container{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#theme {
+    position : absolute;
+    top : 0;
+    left: 0;
+    cursor: pointer;
+}
+
+#theme1 {
+    position : absolute;
+    top : 0;
+    right : 0;
+    cursor: pointer;
+}
+
+#theme img {
+    width : 100px;
+    height : 100px;
+}
+
+#theme1 img {
+    width : 100px;
+    height : 100px;
+}
+
+

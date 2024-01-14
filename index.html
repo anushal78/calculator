@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CALCULATOR</title>
+    <link rel = "icon" type = "image/png" href="./images/calci.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--to do toggle theme-->
+    <div id = "theme">
+           <img src="./images/light.png">
+    </div>
+
+    <div id = "theme1">
+        <img src="./images/dark.png">
+    </div>
+
+   <div class = "container">
+
+      <div>
+        <ul id = "history"></ul>
+      </div>
+
+       <div class="form">
+           <h1>CALCULATOR</h1>
+           <input type="number" name="" id="input-one">
+           <select name="" id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+           </select>
+
+           <input type="number" name="" id="input-two">
+           <button id ="equal-btn">=</button>
+       </div>
+
+       <div>
+          <h1 id="computation"></h1>
+       </div>
+   </div>
+       <script src="script.js"></script>
+</body>
+</html>
